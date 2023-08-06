@@ -1,0 +1,66 @@
+.movicard{
+    width: 270px;
+    height: 460px;
+    background-color: #445566;
+    border-radius: 10px;
+    margin: 15px 0;
+    transition: 0.6s;
+    position: relative;
+}
+.movicard:hover{
+    box-shadow: 2px 5px  10px #5f4d4d;
+    transform: scale(1.03);
+}
+.movicard__img{
+    width: 100%;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.movicard__subtitle{
+    padding: 5px 5px;
+    color: wheat;
+    padding: 5px;
+    font-family:sans-serif;
+}
+.movicard__subtitle-rataion{
+    position: absolute;
+    bottom: 100px;
+    background-color: black;
+    width:50px;
+    height: 50px;
+    display: flex; 
+    align-items: center; 
+    border-radius: 50px;
+    justify-content: center;
+}
+.movicard__subtitle-rataion-conic{
+    position: absolute;
+    text-align: center;
+    background:  conic-gradient(rgb(35, 33, 79) 0.3turn, rgb(195, 121, 133) 90deg);
+    border-radius: 50px;
+    width: 40px;
+    height:  40px;
+}
+.movicard__subtitle-rataion-center{
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: black;
+    width:30px;
+    height:30px;
+}
+.movicard__subtitle-title{
+    font-size: 18px;
+    color: darkorange;
+}
+
+.movicard__subtitle-date{
+    color: lawngreen;
+    text-align: end;
+}

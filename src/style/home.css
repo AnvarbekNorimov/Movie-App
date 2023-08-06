@@ -1,0 +1,10 @@
+.heder__section{
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bgcolor{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 34, 52, 0.829);
+}

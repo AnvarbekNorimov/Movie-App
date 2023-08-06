@@ -1,0 +1,8 @@
+.heaeder__card{
+    transition: 1s; 
+}
+.heaeder__card:hover{
+    transform: scale(1.03);
+    border-radius: 10px;
+    box-shadow: 2px 5px  10px #4a494d68;
+}

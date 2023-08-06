@@ -1,0 +1,12 @@
+.singlestyle{
+    background-position: center  calc((50vw - 170px) - 340px) top ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 638px;
+    
+}
+.singlestyle-bg{
+    background-color: rgba(0, 0, 0, 0.782);
+    height:100%;
+    
+}
