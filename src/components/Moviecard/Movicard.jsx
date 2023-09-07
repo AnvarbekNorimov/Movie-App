@@ -9,7 +9,7 @@ const Movicard = ({ id,rataion,date,title,img}) => {
        <div className="movicard__subtitle">
         <div className="movicard__subtitle-rataion">
           <div className="movicard__subtitle-rataion-conic">
-            <span className="flex movicard__subtitle-rataion-center text-[13px]">{Math.round(rataion*10)}%</span>
+            <span className="flex movicard__subtitle-rataion-center ">{Math.round(rataion*10)}%</span>
           </div>
         </div>
         <h2 className="movicard__subtitle-title mt-[10px]">{title}</h2>

@@ -29,7 +29,7 @@ const SinglMovie = () => {
 //  console.log(state.data,"sssss");
    const styleBg = {backgroundImage: `url(https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/${state.data.backdrop_path})`} 
   return (
-           <div className="container mx-auto">
+           <div className="container mx-auto pt-[70px]">
            {state.isFetchet?(
                 <div style={styleBg} className="singlestyle">
                   <MoviMomp

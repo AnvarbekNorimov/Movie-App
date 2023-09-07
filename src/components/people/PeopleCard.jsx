@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"
 const PeopleCard = ({id,img,name}) => {
   return (
     <Link to={`/single-people/${id}`}>
-    <div>
-     <img className="w-[100%]" src={img} alt="" />
+    <div className="">
+     <img className="people_card-img " src={img} alt="" />
      <h2 className=" ml-[5px] text-[24px]">{name}</h2>
     </div>
     </Link>

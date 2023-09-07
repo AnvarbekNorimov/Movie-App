@@ -33,12 +33,11 @@ const People = () => {
  console.log(people.data, "salom data")
   return  (
     <div className=" bg-[#181B22]  pt-[100px]">
-      <div className="">
-        <div className="container mx-auto h-[100%] grid grid-cols-5">
+        <div className="container mx-auto h-[100%] people_grid">
               {
          people?.data?.map((people)=>(
       <>
-      <div className="w-[250px] h-[345px] overflow-hidden m-[20px] text-white bg-[#445566] rounded-[10px]  mt-[10px]">
+      <div className=" peopleres_card overflow-hidden  text-white bg-[#445566] rounded-[10px]  mt-[10px]">
       <PeopleCard
       id={people.id}
       img={`https://www.themoviedb.org/t/p/w235_and_h235_face/${people.profile_path}`}
@@ -48,7 +47,7 @@ const People = () => {
           {
             people?.known_for?.map((people) =>(
               <>
-              <div className="  mt-[2px] pl-[5px]">
+              <div className=" mt-[2px] pl-[5px]">
                 <span className=" text-teal-400  font-sans text-[15px]">{people.original_title}</span>
               </div>
               </>
@@ -59,7 +58,6 @@ const People = () => {
         ))
     }
         </div>
-      </div>
     </div>
   )
 }

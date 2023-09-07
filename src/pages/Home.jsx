@@ -31,11 +31,11 @@ const Home = () => {
   {
   return (
     <div className="bg-[#181B22]">
-          <div className="container m-auto pt-[px] bg-[#181B22]">
+          <div className=" container Header__res mx-auto bg-[#181B22]">
       <HomeHeder/>
         <p className="bg-[#181B22] text-amber-600  p-[25px] font-[900] text-[20px]">Trending</p>
-      <div className="">
-                <div className="bg-[#181B22] flex   overflow-y-hidden">
+      <div className=" ">
+                <div className="bg-[#181B22] flex   overflow-y-hidden overflow">
              {
         state?.data?.results?.map((Home)=>(
           <>

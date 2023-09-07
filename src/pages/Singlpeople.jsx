@@ -34,22 +34,34 @@ const SinglePeople = () => {
  },[]);
  console.log(people.data, "salom data")
   return  (
-    <div className=" bg-[#445566] pt-[100px] h-[1300px] text-white">
+    <div className=" container mx-auto  bg-[#445566] pt-[100px] h-[100%] max-h-[1000px]  text-white">
            {
            people.isFetchet?(
                 <>
-                <div className="container m-auto">
+                <div className="">
+
                 <div className=" m-[50px]  flex  gap-[30px]">
+
                   <div >
+
                   <img className=" rounded-[10px]" src={`https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${people.data.profile_path}`} alt="" />
+                  
                   <span>{people.data.title}</span>
+
                   <p className="text-orange-400 font-[700] mt-3">Known For</p>
+
                   <span>{people.data.known_for_department}</span>
+
                   <span>{people.data.gender===1?'Female':'Male'}</span>
+
                   <p className="text-orange-400 font-[700] mt-3">Birthday</p>
+                  
                   <span>{people.data.birthday}</span>
+
                   <p className="text-orange-400 font-[700] mt-3">Place of Birth</p>
+
                   <span>{people.data.place_of_birth}</span>
+
                   <p className="text-orange-400 font-[700] mt-3">Also Known As</p>
                   {
                     people?.data?.also_known_as.map((item) =>
@@ -64,7 +76,7 @@ const SinglePeople = () => {
                 <div>
                 <h2 className="text-[30px] font-[800]">{people.data.name}</h2>
                 <p className="text-orange-400 font-[700] text-[20px] font-arial">Biography</p>
-                <p className="w-[1000px] text-[15px]">{people.data.biography}</p>
+                <p className=" text-[15px]">{people.data.biography}</p>
                 </div>
                 </div>
                 </div>

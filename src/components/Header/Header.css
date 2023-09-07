@@ -5,6 +5,8 @@
     width: 100%;
     background-color: #121212;
     align-items: center;
+    position: fixed;
+    z-index: 5000;
 }
 .Header__logo{
     color:#EA5915;

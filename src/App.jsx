@@ -7,6 +7,7 @@ import Header from "./components/Header"
 import SingleHome from "./pages/SingleHome"
 import People from "./pages/People"
 import SinglPeople from "./pages/Singlpeople"
+import {} from "./responsive.css"
 function App() {
 
 

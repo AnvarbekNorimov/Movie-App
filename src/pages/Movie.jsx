@@ -31,7 +31,7 @@ const Movie = () => {
  },[]);
   return (
         <div className="bg-[#181B22]">
-          <div className=" container movicard__grid grid grid-cols-4 pt-[100px] mx-auto">
+          <div className=" container movicard__grid  pt-[100px] mx-auto">
             {
               state?.data?.map((movie)=>(
                 <Movicard 

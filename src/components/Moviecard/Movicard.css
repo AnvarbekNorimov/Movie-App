@@ -33,6 +33,7 @@
     align-items: center; 
     border-radius: 50px;
     justify-content: center;
+    font-size: 1px;
 }
 .movicard__subtitle-rataion-conic{
     position: absolute;
@@ -54,6 +55,7 @@
     background-color: black;
     width:30px;
     height:30px;
+    font-size: 13px;
 }
 .movicard__subtitle-title{
     font-size: 18px;
